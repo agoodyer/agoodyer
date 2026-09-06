@@ -1,52 +1,40 @@
-# 👋 I'm Aidan Goodyer
+# Hi, I'm Aidan Goodyer
 
-### **Engineering from the metal to the cloud.**
-*Final year Software Engineering student at McMaster University. Obsessed with distributed systems, low-latency code, and software architecture.*
+I'm a software engineer in Toronto working on developer platforms, infrastructure, and backend systems. Outside work, I use personal projects to explore unfamiliar parts of computing—from ATProto and browser-based ray tracing to research software and embedded robotics.
 
-[**Portfolio**](https://www.agoodyer.com) | [**LinkedIn**](https://linkedin.com/in/aidan-goodyer) | [**Email**](mailto:aidangoodyer@gmail.com)
+I'm currently at **Scotiabank**, building reusable CI/CD workflows and platform tooling with Terraform, GitHub Actions, Kubernetes, and Google Cloud. I studied Software Engineering at McMaster University.
 
----
+[Personal site](https://agoodyer.com/) · [LinkedIn](https://www.linkedin.com/in/aidan-goodyer/) · [Email](mailto:aidangoodyer@gmail.com)
 
-### 🚀 Engineering Highlights
+## Selected projects
 
-* **Cloud Architecture:** Architected an event-driven data engine at **Capio**, reducing transformation time by **60%**.
-* **Observability:** Integrated **AWS X-Ray** for distributed tracing, cutting **MTTR by 30%**.
-* **Scale:** Engineered bank-wide **CI/CD** features at **Scotiabank** serving **thousands of developers**.
-* **Security:** Led zero-trust **VPC migrations** for core microservices using private subnets.
+### [Chive](https://github.com/chive-recipes/chive)
 
----
+An open-source recipe app built on the AT Protocol. Recipes stay in their authors' repositories instead of an application database; a static Preact client discovers and reads them directly from the network. [Try it](https://chive.pages.dev/).
 
-### 🛠️ Tech Stack
+`TypeScript` `Preact` `AT Protocol` `Cloudflare Pages`
 
-**Languages** ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+### [InfraRAT](https://github.com/OCD-Rats-Capstone/InfraRAT)
 
-**Cloud & Infrastructure** ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
+A platform for searching, visualizing, and retrieving roughly 20,000 behavioural-neuroscience sessions from McMaster's Szechtman Lab. I worked across the early frontend, system integration, Docker and deployment, backend testing, and engineering documentation as part of a five-person capstone team. [Read the case study](https://agoodyer.com/projects/infrarat/).
 
-**Frameworks** ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+`Python` `FastAPI` `PostgreSQL` `React` `Docker`
 
----
+### [GoTracer](https://github.com/agoodyer/GoTracer)
 
-### 🏗️ Featured Projects
+A CPU ray tracer written with the Go standard library, then brought to the browser with WebAssembly. It supports multiple primitives and materials, STL meshes, a bounding-volume hierarchy, and concurrent native rendering. [Run the browser demo](https://agoodyer.github.io/GoTracer/).
 
-* ☄️ **[3D Raytracing Engine](https://github.com/agoodyer/raytracer)**: A from-scratch multithreaded engine in Go. Achieved a **36x speedup** through BVH optimization.
-* 🦜 **[BirdScout](https://github.com/agoodyer/BirdScout)**: Real-time species identification using **LLM vision models** and serverless edge functions.
-* 🏝️ **[Procedural Islands](https://github.com/2AA4-W23/Procedural-Islands)**: Terrain generation via Voronoi meshes and humidity-based biome mapping.
+`Go` `WebAssembly` `Computer graphics` `Concurrency`
 
----
+### [BirdScout](https://github.com/agoodyer/BirdScout)
 
-### 🔭 Currently...
+A mobile field journal for identifying and recording bird sightings, built by a six-person student team. I worked on requirements and system design, the initial application structure, cloud data and image storage, and the identification integration. [Read the case study](https://agoodyer.com/projects/birdscout/).
 
-* 🎓 **Graduating:** Finishing my B.Eng in Software Engineering at McMaster (**GPA: 10.9/12.0**).
-* 🔬 **Building**: Working on a behavioral data analysis platform for animal behavioural models. Leveraging ML to automate pattern recognition in high-dimensional behavioral data.
-* 🧪 **Exploring:** Deep-diving into the **AT Protocol** and building decentralized web experiments.
+`TypeScript` `React Native` `Firebase` `Supabase`
 
----
+## A few other things I've built
 
-<p align="center">
-  <a href="https://linkedin.com/in/aidan-goodyer">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
-  </a>
-  <a href="https://www.agoodyer.com">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-teal?style=flat-square&logo=google-chrome" alt="Portfolio">
-  </a>
-</p>
+- [TicTacToeBot](https://github.com/agoodyer/TicTacToeBot) — firmware for a weekend-built ESP8266 competition robot that recorded the fastest course completion and placed second overall.
+- [Software Defect Prediction](https://github.com/agoodyer/software-defect-prediction) — an interpretable machine-learning study of what static code metrics can, and cannot, say about defects.
+
+My [personal site](https://agoodyer.com/) has the fuller project stories and professional history. The repositories above contain the implementation details, limitations, and setup notes.
